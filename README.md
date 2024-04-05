@@ -33,7 +33,7 @@ conda activate cnncls
 ```
 
 
-### STEP 02- install the requirements
+### STEP 02- Install the requirements
 ```bash
 pip install -r requirements.txt
 ```
@@ -59,7 +59,7 @@ open local host and port
 
 MLFLOW_TRACKING_URI=https://dagshub.com/anuragrik/kidney-disease-classifier.mlflow \
 MLFLOW_TRACKING_USERNAME=anuragrik \
-MLFLOW_TRACKING_PASSWORD=174604f31b79c9b71d17780cc66c477129abf566 \
+MLFLOW_TRACKING_PASSWORD= "" \
 python script.py
 
 Run this to export as env variables:
@@ -70,7 +70,7 @@ $env:MLFLOW_TRACKING_URI = "https://dagshub.com/anuragrik/kidney-disease-classif
 
 $env:MLFLOW_TRACKING_USERNAME="anuragrik"
 
-$env:MLFLOW_TRACKING_PASSWORD="174604f31b79c9b71d17780cc66c477129abf566"
+$env:MLFLOW_TRACKING_PASSWORD=" "
 ```
 
 
